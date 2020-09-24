@@ -21,6 +21,8 @@
 <!--          {{tasks.length}}/ {{unComplete}}-->
         </div>
         <button
+          +.
+          
           class="btn btn--red"
           @click="tasks = []">
           <i class="fa fa-trash"></i> Видалити всі
