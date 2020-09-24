@@ -18,7 +18,7 @@
       </div>
       <div class="actions-block">
         <div class="count-block">
-          {{tasks.length}}/ {{unComplete}}
+<!--          {{tasks.length}}/ {{unComplete}}-->
         </div>
         <button
           class="btn btn--red"
