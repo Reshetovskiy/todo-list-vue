@@ -1,0 +1,22 @@
+.new-task
+  display: flex
+  align-items: center
+  &__input
+    display: block
+    border: 1px solid #5f5b66
+
+.task
+  width: 100%
+  margin-bottom: 15px
+  &__desc
+    width: 100%
+  &__input
+    height: 35px
+    &.input
+      width: 100%
+      border: 1px solid rgba(118, 118, 118, 0.3)
+      &:disabled
+        background-color: rgba(239, 239, 239, 0.3)
+        color: #ffffff
+    &.checked
+      text-decoration: line-through
